@@ -7,9 +7,9 @@ from rdflib.namespace import Namespace, RDF
 
 DC = Namespace("http://purl.org/dc/terms/")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
-BASE = Namespace("http://orion.tw.rpi.edu/~agraves/visualbox/events/")
-S = Namespace("http://orion.tw.rpi.edu/~agraves/visualbox/schema/")
-ROOT = Namespace("http://orion.tw.rpi.edu")
+BASE = Namespace("http://tw.rpi.edu/blah/events/")
+S = Namespace("http://tw.rpi.edu/blah/schema/")
+ROOT = Namespace("http://tw.rpi.edu")
 _XSD_NS = Namespace(u'http://www.w3.org/2001/XMLSchema#')
 
 store = Graph()
